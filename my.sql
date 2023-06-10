@@ -1,0 +1,6 @@
+CREATE TABLE counter (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    value INT DEFAULT 0
+);
+
+INSERT INTO counter (value) VALUES (0);
